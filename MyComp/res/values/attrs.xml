@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SelectModeView">
+       
+        <attr name="onetext" format="string" />
+        <!-- The text used on the switch itself when in the "off" state.
+             This should be a very SHORT string, as it appears in a small space. -->
+        <attr name="twotext" format="string" />
+       
+    </declare-styleable>
+</resources>

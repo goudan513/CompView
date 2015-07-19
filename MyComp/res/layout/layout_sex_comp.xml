@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="220dip"
+    android:layout_height="70dip"
+    android:background="#22000000"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/et_select_intercept_phone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入拦截号码" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/cb_select_intercept_sms"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="短信拦截" />
+          <CheckBox
+            android:id="@+id/cb_select_intercept_phone"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="电话拦截" />
+    </LinearLayout>
+
+</LinearLayout>
